@@ -46,3 +46,44 @@ body {
 h1 {
   font-size: 6rem;
 }
+
+nav {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  max-width: 100%;
+  padding: 1rem 2rem;
+  width: 600px;
+}
+
+/*
+  CLASSES
+*/
+
+.navlink {
+  color: var(--color-pop);
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.navlink.active {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
+
+.header {
+  background: linear-gradient(0deg, transparent 0%, transparent 20%, var(--color-pop) 20%, var(--color-pop) 100%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2rem 0 0 0;
+  width: 100%;
+}
+
+.header h1 {
+  max-width: 600px;
+  width: 600px;
+}
