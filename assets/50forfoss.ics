@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:50 for FOSS
+X-WR-TIMEZONE:America/Denver
+X-WR-CALDESC:On the first Friday of each month\, pay 50 dollars for an open
+ -source package or application you appreciate.
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20241004
+DTEND;VALUE=DATE:20241005
+RRULE:FREQ=MONTHLY;BYDAY=1FR
+DTSTAMP:20240914T230526Z
+UID:6tdutl83kdfpi488vqdq2ojpe5@google.com
+CLASS:PUBLIC
+CREATED:20240914T225821Z
+DESCRIPTION:Today's the day! Choose an open-source application or package y
+ ou appreciate and find a way to pay for it.\n\nhttps://50forFOSS.org
+LAST-MODIFIED:20240914T225821Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:50 for FOSS
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
