@@ -58,6 +58,10 @@ nav {
   width: 600px;
 }
 
+p, ul {
+  padding-bottom: 1rem;
+}
+
 /*
   CLASSES
 */

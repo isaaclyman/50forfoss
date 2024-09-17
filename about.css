@@ -20,10 +20,6 @@ section {
   width: 600px;
 }
 
-p {
-  padding: 0 0 1rem 0;
-}
-
 .content {
   align-items: center;
   display: flex;
